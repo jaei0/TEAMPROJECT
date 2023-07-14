@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#e0e0e0" /> <!-- 배경 색상 -->
+    <stroke
+        android:width="2dp"
+        android:color="#c0c0c0" /> <!-- 선의 색상 -->
+    <padding
+        android:top="4dp"
+        android:bottom="4dp" /> <!-- 하단 여백 -->
+</shape>

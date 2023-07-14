@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.parking.mappers.IParkingMapper">
+    <insert id="insertParking"
+            parameterType="com.parking.entities.ParkingEntity">
+        INSERT INTO `api`.`parking_area` (`주차장ID`, `구군코드`, `주차장명`, `주소`,`기관명`,`전화번호`,
+                                          `유무료구분`,`오픈요일`,`평일오픈시간`,`평일마감시간`,`주말오픈시간`,`주말마감시간`,
+                                          `상세`)
+        VALUES (#{parkId}, #{guCode}, #{name}, #{address}, #{adminName}, #{telNum},
+                #{pay}, #{openDay}, #{weekStartTime}, #{weekEndTime}, #{weekendStartTime}, #{weekendEndTime},
+                #{detail})
+    </insert>
+</mapper>

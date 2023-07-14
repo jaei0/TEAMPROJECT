@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주차장 간편 검색 "
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-12dp"
+        android:background="@drawable/p_simple_search"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="자주 이용하는 주차장 정보를 미리 등록해\n주차장 조회를 빠르게 할 수 있는 서비스 입니다.\n\n* 현재 주차장 정보의 간편 등록은 '등록'\n간편 등록된 주차장 정보 불러오기는 '선택'"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/quickSelectBtn"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/btn_stroke_1_black_radius_10dp"
+            android:text="선택"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/quickRegisterBtn"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/btn_stroke_1_black_radius_10dp"
+            android:text="등록"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/quickCloseBtn"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/btn_stroke_1_black_radius_10dp"
+            android:text="닫기"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

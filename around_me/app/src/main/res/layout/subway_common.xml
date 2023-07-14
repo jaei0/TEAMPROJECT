@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".services.subway.SubwayCommonService">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="bottom">
+
+        <ImageButton
+            android:id="@+id/s_homebtn"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/s_homebtn1"
+            app:tint="#cccccc" />
+
+
+
+        <ImageButton
+            android:id="@+id/s_searchbtn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/common_searchbtn1"
+            app:tint="#cccccc" />
+
+
+
+        <ImageButton
+            android:id="@+id/s_createbtn"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:backgroundTint="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/s_addbtn1"
+            app:tint="#cccccc" />
+
+
+        <ImageButton
+            android:id="@+id/s_bookmarkbtn"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:backgroundTint="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/common_bookmark_heart2"
+            app:tint="#cccccc" />
+    </LinearLayout>
+</LinearLayout>

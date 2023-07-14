@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.subway.mappers.ISubwayMapper">
+    <insert id="insertSubway"
+            parameterType="com.subway.entities.SubwayEntity">
+        INSERT INTO `api`.`nearby_subway` (`호선`, `역명`, `구분`, `상호`,`상세`,`시간(분)`)
+        VALUES (#{line}, #{station}, #{category}, #{name}, #{detail}, #{time})
+    </insert>
+</mapper>

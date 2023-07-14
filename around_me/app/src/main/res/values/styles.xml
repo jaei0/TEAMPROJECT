@@ -1,0 +1,6 @@
+<resources>
+    <style name="SmallRadioButtonStyle" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:minHeight">30dp</item>
+        <item name="android:minWidth">60dp</item>
+    </style>
+</resources>
